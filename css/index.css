@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5 {
 
         display: flex;
         flex-direction: column;
-        width: 99%;
+        width: 100%;
     }
     header nav a {
         width:100%
@@ -319,7 +319,9 @@ h1, h2, h3, h4, h5 {
     .text-content {
         margin-bottom: 20px;
     }
-   
+   .middle-img {
+       object-fit: cover;
+   }
     .bottom-content {
         flex-direction: column;
         margin-bottom: 20px;
